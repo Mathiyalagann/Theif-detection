@@ -9,9 +9,9 @@ from email.mime.multipart import MIMEMultipart
 import time
 
 
-sender_email = "squardblack7@gmail.com"
-password = "sdjvlcekuvzynacf"
-receiver_email = "mathiy379@gmail.com"
+sender_email = "your-email@gmail.com"
+password = "your-app-password"
+receiver_email = "destination-email@gmail.com"
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
 
@@ -59,7 +59,7 @@ def prepare_training_data(data_folder_path):
 
 # Train model
 print("Training model...")
-faces, labels, label_map_rev = prepare_training_data("faces/mathi")
+faces, labels, label_map_rev = prepare_training_data("faces")
 recognizer.train(faces, np.array(labels))
 print("Training complete.")
 
