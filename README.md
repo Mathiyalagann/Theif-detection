@@ -1,6 +1,6 @@
 🔐 Real-Time Thief Detection using Python and OpenCV
 
-This project is a "real-time facial recognition-based thief detection system" developed in Python using OpenCV. It identifies known thief faces by comparing live webcam feed with a pre-stored "faces" database and sends an "email alert" when a match is found.
+This project is a "real-time face recognition-based thief detection system" developed in Python using OpenCV. It identifies known thief faces by comparing live webcam feed with a pre-stored "faces" database and sends an "email alert" when a match is found.
 
 ---
 
