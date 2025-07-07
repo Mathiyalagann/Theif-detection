@@ -26,12 +26,15 @@ This project is a "real-time facial recognition-based thief detection system" de
 📁 Project Structure
 
 Real-time-thief-detection/
-├── faces/ # Folder containing thief images
-│ ├── thief1.jpg
-│ ├── thief2.jpg
-├── thief_detector.py # Main Python script
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+1. faces/ # Folder containing thief images
+
+   thief1.jpg
+   
+   thief2.jpg
+3. thief_detector.py # Main Python script
+4. requirements.txt # Python dependencies
+
+   README.md # Project documentation
 
 
 ---
